@@ -1,10 +1,17 @@
 .body{
     background-color: #FCF9F4;
-}.nav-bar{
+}
+.heading{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.nav-bar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px auto;
+    margin: 0 auto;
     width: 90%;
     font-size: 1em;
     font-weight: 500;
@@ -57,7 +64,7 @@
     width: 90%;
     align-items: center;
     font-family: inika;
-    margin: 5px auto;
+    margin: 120px auto;
     justify-content: space-between;
 }
 .main-div-00{
@@ -116,7 +123,7 @@
     width: 90%;
     align-items: center;
     font-family: inika;
-    margin: 5px auto;
+    margin: 120px auto;
     justify-content: space-between;
 
 }
@@ -163,7 +170,7 @@
 .section3{
     width: 90%;
     align-items: center;
-    margin: 50px auto;
+    margin: 120px auto;
 }
 .our-menu{
     text-align: center;
@@ -224,7 +231,7 @@
 .section4{
     width: 90%;
     align-items: center;
-    margin: 50px auto;
+    margin: 150px auto;
 }
 .our-blog{
     text-align: center;
@@ -290,6 +297,7 @@
 }
 .section5{
     align-items: center;
+    margin: 120px auto;
 }
 .div{
     margin-left: 70px;
@@ -357,6 +365,7 @@ h1{
     background-color: #FCF9F4; /* Background color of the footer */
     padding: 20px 0; /* Padding on the top and bottom of the footer */
     text-align: center; /* Center-align content */
+    margin-top: 150px;
 }
 
 .social-media {
