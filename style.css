@@ -38,13 +38,17 @@
     color: #FFF8E1;
 
     background-color: #6F4436;
-    border-radius: 25px;
+    border-radius: 15px;
     
 }
 .nav-items ul li a:hover{
     color: #6F4436;
     background-color: #FCF9F4;
     
+}
+.nav-items ul li.active a {
+    color: #6F4436;
+    background-color: #FCF9F4;
 }
 .nav-bar-sign-up a{
     text-decoration: none;
